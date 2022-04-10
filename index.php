@@ -123,7 +123,7 @@ if (isset($_POST['soluciones-0-0'])) {
 <div class="border shadow p-3 mb-5 bg-body rounded" style="">
 
 Consentimiento informado
-Este estudio está realizado por Ainara Alonso, Aitor Pflügl y Tristán Romera, alumnos del
+Este estudio está realizado por Ainara Alonso y Tristán Romera, alumnos del
 IES Botikazar, que están siendo tutorizados por Emilio Visaires ,responsable del
 departamento de matemáticas del centro.
 El objetivo del mismo es la recogida de información para participar en un concurso de la
@@ -227,7 +227,7 @@ He leído la información
   <div>
 	<label class="form-label">Nota media:</label>
 	<input type="number" class="form-control oinput" name="media"></input>
-	<div id="emailHelp" class="form-text">Nota media de todos los trimestes que hayas hecho este curso. <b>Solo una decimal</b></div>
+	<div id="emailHelp" class="form-text">Nota media de todos los trimestes que hayas hecho este curso. <b>Solo un decimal señalado con punto, no coma</b></div>
 
   </div>
 
@@ -306,22 +306,6 @@ He leído la información
 	<label class="form-label">Cuantos años:</label>
 	<input type="number" class="form-control" name="regladas-años"></input>
 	<div id="emailHelp" class="form-text">Por favor introduce <b>solo un numero entero</b>. </div>
-  </div>
-   
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Has realizado enseñanzas no reglados de música:</label>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="no-regladas" value="S" checked>
-      <label class="form-check-label">
-        Si
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="no-regladas" value="N">
-      <label class="form-check-label">
-        No
-      </label>
-    </div>
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Has realizado enseñanzas no reglados de música:</label>
