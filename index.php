@@ -112,7 +112,11 @@ if (isset($_POST['soluciones-0-0'])) {
 
   array_push($csv_line, $today);
   $file = fopen("data.csv", "a");
+
+  if (strstr($csv_line, '<') != true) {
   fputcsv($file, $csv_line);
+  }
+  
   fclose($file);
 }
 
@@ -341,7 +345,7 @@ He leído la información
   </div>   
   
   <hr></hr>
-  <h4>Este es la <mark>primera</mark> parte. Por favor <mark>esperen</mark> hasta que expliquemos todo. El primer test es solo de ejemplo.</h4>
+  <h4>Esta es la <mark>primera</mark> parte. Por favor <mark>esperen</mark> hasta que expliquemos todo. El primer test es solo de ejemplo.</h4>
   <br></br>
 
 
@@ -371,7 +375,7 @@ He leído la información
 	  if ($i == 0) {
 		  echo '<div class="" id="warning" style="margin-top: 1%" role="alert">';
 		  echo "<hr></hr>
-				<h4>Este es la <mark>segunda</mark> parte. Por favor <mark>esperen</mark> hasta que expliquemos todo. El primer test es solo de ejemplo.</h4>
+				<h4>Esta es la <mark>segunda</mark> parte. Por favor <mark>esperen</mark> hasta que expliquemos todo. El primer test es solo de ejemplo.</h4>
 				<br></br>";
 		  echo "</div>";
 	  }
