@@ -306,9 +306,8 @@ He leído la información
 	<label class="form-label">Cuantos años:</label>
 	<input type="number" class="form-control" name="regladas-años"></input>
 	<div id="emailHelp" class="form-text">Por favor introduce <b>solo un numero entero</b>. </div>
-
   </div>
-  </div>       
+   
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Has realizado enseñanzas no reglados de música:</label>
     <div class="form-check">
@@ -324,7 +323,21 @@ He leído la información
       </label>
     </div>
   </div>
-  
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Has realizado enseñanzas no reglados de música:</label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="no-regladas" value="S" checked>
+      <label class="form-check-label">
+        Si
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="no-regladas" value="N">
+      <label class="form-check-label">
+        No
+      </label>
+    </div>
+  </div>
   <div>
 	  <label class="form-label">Cuantos años:</label>
 	  <input type="number" class="form-control" name="no-regladas-años"></input>
