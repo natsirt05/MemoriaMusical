@@ -96,6 +96,6 @@ echo "</table>";
 ?>
 <html>
 <form method="get" action="data.csv">
-   <button type="button">Descargar</button>
+   <button type="submit">Descargar</button>
 </form>
 <html>
