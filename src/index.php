@@ -148,7 +148,7 @@ He leído la información
 <hr></hr>
 
 
-<form action="/index.php" method="post" id="main-form">
+<form action="src/index.php" method="post" id="main-form">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Codigo de identificación:</label>
     <input type="text" name="codigo" class="form-control oinput" id="exampleInputEmail1" >
