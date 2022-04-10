@@ -79,13 +79,17 @@ if (isset($_POST['soluciones-0-0'])) {
 	 $_POST["codigo"],
 	 $_POST["sexo"],
 	 $_POST["fecha-nacimiento"],
-	 $_POST["estudios"],
+	 $_POST["estudio"],
 	 $_POST["modalidad"],
+   $_POST["curso"],
+   $_POST["media"],
 	 $_POST["tocas"],
 	 $_POST["horas-semanales"],
 	 $_POST["modalidad-instrumento"],
 	 $_POST["regladas"],
+   $_POST["regladas-años"]
 	 $_POST["no-regladas"],
+   $_POST["no-regladas-años"],
 	 $_POST["estudiar-edad"],
 	 $_POST["edad-dejar"],
 	 $_POST["time"]
@@ -218,11 +222,11 @@ He leído la información
   </div>
   <div class="mb-3">
     <label class="form-label">Curso:</label>
-	<input type="number" class="form-control oinput"></input>
+	<input type="number" class="form-control oinput" name="curso"></input>
   </div>
   <div>
 	<label class="form-label">Nota media:</label>
-	<input type="number" class="form-control oinput"></input>
+	<input type="number" class="form-control oinput" name="media"></input>
 	<div id="emailHelp" class="form-text">Nota media de todos los trimestes que hayas hecho este curso. <b>Solo una decimal</b></div>
 
   </div>
@@ -319,39 +323,25 @@ He leído la información
       </label>
     </div>
   </div>
+  
   <div>
-	<label class="form-label">Cuantos años:</label>
-	<input type="number" class="form-control" name="no-regladas-años"></input>
-	<div id="emailHelp" class="form-text">Por favor introduce <b>solo un numero entero</b>. </div>
-
+	  <label class="form-label">Cuantos años:</label>
+	  <input type="number" class="form-control" name="no-regladas-años"></input>
+	  <div id="emailHelp" class="form-text">Por favor introduce <b>solo un numero entero</b>. </div>
   </div>
   
-   <div>
-	<label class="form-label">A que edad comenzaste a estudiar música:</label>
-	<input type="number" class="form-control" name="estudiar-edad"></input>
-	<div id="emailHelp" class="form-text">Por favor introduce <b>solo un numero entero</b>. </div>
-
+  <div>
+	  <label class="form-label">A que edad comenzaste a estudiar música:</label>
+	  <input type="number" class="form-control" name="estudiar-edad"></input>
+	  <div id="emailHelp" class="form-text">Por favor introduce <b>solo un numero entero</b>. </div>
   </div>
-    <label for="exampleInputPassword1" class="form-label">Has realizado enseñanzas no reglados de música:</label>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="no-regladas" value="S" checked>
-      <label class="form-check-label">
-        Si
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="radio" name="no-regladas" value="N">
-      <label class="form-check-label">
-        No
-      </label>
-    </div>
-  </div>  
-   <div>
-	<label class="form-label">A que edad dejaste de estudiar música:</label>
-	<input type="number" class="form-control" name="edad-dejar"></input>
-	<div id="emailHelp" class="form-text">Por favor introduce <b>solo un numero entero</b>. </div>
-
+  
+  <div>
+	  <label class="form-label">A que edad dejaste de estudiar música:</label>
+	  <input type="number" class="form-control" name="edad-dejar"></input>
+	  <div id="emailHelp" class="form-text">Por favor introduce <b>solo un numero entero</b>. </div>
   </div>   
+  
   <hr></hr>
   <h4>Este es la <mark>primera</mark> parte. Por favor <mark>esperen</mark> hasta que expliquemos todo. El primer test es solo de ejemplo.</h4>
   <br></br>
