@@ -113,9 +113,7 @@ if (isset($_POST['soluciones-0-0'])) {
   array_push($csv_line, $today);
   $file = fopen("data.csv", "a");
 
-  if (strstr($csv_line, '<') != true) {
   fputcsv($file, $csv_line);
-  }
   
   fclose($file);
 }
