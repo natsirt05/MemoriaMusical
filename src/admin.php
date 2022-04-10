@@ -95,7 +95,7 @@ echo "</table>";
 
 ?>
 <html>
-<form action=<a href="data.csv" download>>
-  <button type="button">Descargar datos</button> 
+<form method="get" action="data.csv">
+   <button type="button">Descargar</button>
 </form>
 <html>
