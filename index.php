@@ -87,7 +87,7 @@ if (isset($_POST['soluciones-0-0'])) {
 	 $_POST["horas-semanales"],
 	 $_POST["modalidad-instrumento"],
 	 $_POST["regladas"],
-   $_POST["regladas-años"]
+   $_POST["regladas-años"],
 	 $_POST["no-regladas"],
    $_POST["no-regladas-años"],
 	 $_POST["estudiar-edad"],
