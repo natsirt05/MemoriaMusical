@@ -308,6 +308,7 @@ He leído la información
 	<div id="emailHelp" class="form-text">Por favor introduce <b>solo un numero entero</b>. </div>
 
   </div>
+  </div>       
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Has realizado enseñanzas no reglados de música:</label>
     <div class="form-check">
