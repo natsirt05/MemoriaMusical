@@ -19,41 +19,60 @@ echo '
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">Data</th>
-      <th scope="col">Musika Ikasketak</th>
-      <th scope="col">Izen abizena</th>
-      <th scope="col">Klasea</th>
-      <th scope="col">Sexua</th>
-      <th scope="col">Ondo</th>
-      <th scope="col">Ondo E</th>
-      <th scope="col">Sil 1</th>
-      <th scope="col">Sil 2</th>
-      <th scope="col">Sil 3</th>
-      <th scope="col">Sil 4</th>
-      <th scope="col">Sil 5</th>
-      <th scope="col">Sil 6</th>
-      <th scope="col">Sil 7</th>
-      <th scope="col">Ondo 1</th>
-      <th scope="col">Ondo 2</th>
-      <th scope="col">Ondo 3</th>
-      <th scope="col">Ondo 4</th>
-      <th scope="col">Ondo 5</th>
-      <th scope="col">Ondo 6</th>
-      <th scope="col">Ondo 7</th>
-      <th scope="col">Sil 8</th>
-      <th scope="col">Sil 9</th>
-      <th scope="col">Sil 10</th>
-      <th scope="col">Sil 11</th>
-      <th scope="col">Sil 12</th>
-      <th scope="col">Sil 13</th>
-      <th scope="col">Sil 14</th>
-      <th scope="col">Ondo 8</th>
-      <th scope="col">Ondo 9</th>
-      <th scope="col">Ondo 10</th>
-      <th scope="col">Ondo 11</th>
-      <th scope="col">Ondo 12</th>
-      <th scope="col">Ondo 13</th>
-      <th scope="col">Ondo 14</th>
+      <th scope="col">Código</th>
+      <th scope="col">Sexo</th>
+      <th scope="col">Fecha de nacimiento</th>
+      <th scope="col">Estudios</th>
+      <th scope="col">Modalidad</th>
+      <th scope="col">Curso</th>
+      <th scope="col">Nota media</th>
+      <th scope="col">Instrumento musical</th>
+      <th scope="col">Horas semanales</th>
+      <th scope="col">Tipo de instrumento</th>
+      <th scope="col">Estudios reglados</th>
+      <th scope="col">Años reglados</th>
+      <th scope="col">Estudios no reglados</th>
+      <th scope="col">Años no reglados</th>
+      <th scope="col">Inicio estudios musicales</th>
+      <th scope="col">Fin estudios musicales</th>
+      <th scope="col">Tiempo de desarrollo de la prueba</th>
+      <th scope="col">1.Res</th>
+      <th scope="col">2.Res</th>
+      <th scope="col">3.Res</th>
+      <th scope="col">4.Res</th>
+      <th scope="col">5.Res</th>
+      <th scope="col">6.Res</th>
+      <th scope="col">7.Res</th>
+      <th scope="col">8.Res</th>
+      <th scope="col">9.Res</th>
+      <th scope="col">1.Sol</th>
+      <th scope="col">2.Sol</th>
+      <th scope="col">3.Sol</th>
+      <th scope="col">4.Sol</th>
+      <th scope="col">5.Sol</th>
+      <th scope="col">6.Sol</th>
+      <th scope="col">7.Sol</th>
+      <th scope="col">8.Sol</th>
+      <th scope="col">9.Sol</th>
+      <th scope="col">1.Res2</th>
+      <th scope="col">2.Res2</th>
+      <th scope="col">3.Res2</th>
+      <th scope="col">4.Res2</th>
+      <th scope="col">5.Res2</th>
+      <th scope="col">6.Res2</th>
+      <th scope="col">7.Res2</th>
+      <th scope="col">8.Res2</th>
+      <th scope="col">9.Res2</th>
+      <th scope="col">1.Sol2</th>
+      <th scope="col">2.Sol2</th>
+      <th scope="col">3.Sol2</th>
+      <th scope="col">4.Sol2</th>
+      <th scope="col">5.Sol2</th>
+      <th scope="col">6.Sol2</th>
+      <th scope="col">7.Sol2</th>
+      <th scope="col">8.Sol2</th>
+      <th scope="col">9.Sol2</th>
+      <th scope="col">Fecha</th> 
     </tr>
   </thead>
 ';
@@ -75,3 +94,8 @@ echo "</tbody>";
 echo "</table>";
 
 ?>
+<html>
+<form action="data.csv">
+  <button type="button">Descargar datos</button> 
+</form>
+<html>

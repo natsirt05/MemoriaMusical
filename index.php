@@ -212,13 +212,13 @@ He leído la información
       </label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="modalidad" value="A">
+      <input class="form-check-input" type="radio" name="modalidad" value="C">
       <label class="form-check-label">
         Ciencias
       </label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="modalidad" value="C">
+      <input class="form-check-input" type="radio" name="modalidad" value="A">
       <label class="form-check-label">
         Artes
       </label>
